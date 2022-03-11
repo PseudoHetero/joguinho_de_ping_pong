@@ -1,0 +1,5 @@
+nome = input('Digite o seu nome:').upper().strip()
+print('Analisando...')
+print('O seu nome possui {} "a"'.format(nome.count('A')))
+print('A primeira vez que o "a" aparece é na posição {}'.format(nome.find('A')+1))
+print('A última vez que o "a" aparece é na posição {}' .format(nome.rfind('A')+1))
